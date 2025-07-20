@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sagor Chandra Paul | Portfolio</title>
+   <link rel="stylesheet" href="hi.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+</head>
+<body>
+  <header>
+    <div class="header-container">
+      <div class="logo">Sagor</div>
+      <nav class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#resume">Resume</a>
+        <a href="#education">Education</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="hamburger" onclick="toggleMenu()">
+        &#9776;
+      </div>
+    </div>
+    <div class="overlay" id="overlay" onclick="toggleMenu()"></div>
+    <div class="mobile-nav" id="mobileNav">
+      <a href="#home" onclick="toggleMenu()">Home</a>
+      <a href="#about" onclick="toggleMenu()">About</a>
+      <a href="#resume" onclick="toggleMenu()">Resume</a>
+      <a href="#education" onclick="toggleMenu()">Education</a>
+      <a href="#skills" onclick="toggleMenu()">Skills</a>
+      <a href="#projects" onclick="toggleMenu()">Projects</a>
+      <a href="#contact" onclick="toggleMenu()">Contact</a>
+    </div>
+  </header>
+
+  <section id="home">
+    <div class="container">
+      <div class="content">
+        <div class="profile-image">
+          <img src="https://avatars.githubusercontent.com/u/42088801?v=4" alt="Sagor Chandra Paul">
+        </div>
+        <h1>Hello, I'm <span>Sagor Chandra Paul</span></h1>
+        <h2>Computer Science and Engineering Student | Web Developer</h2>
+        <p>I'm passionate about technology, software development, and solving real-world problems through code. My journey in computer science has equipped me with diverse skills and a creative approach to development.</p>
+        <div class="social-icons">
+          <a href="#"><i class="fab fa-github"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="container">
+      <div class="content">
+        <h2>About Me</h2>
+        <p>I'm Sagor Chandra Paul, a dedicated Computer Science and Engineering student with a passion for creating innovative digital solutions. My expertise spans frontend development, AI integration, and building real-world applications that make a difference.</p>
+        <p>When I'm not coding, you can find me exploring new technologies, contributing to open-source projects, or hiking in nature to recharge my creative energy.</p>
+        <div class="stats">
+          <div class="stat-item">
+            <div class="stat-value">5+</div>
+            <div class="stat-label">Projects</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-value">5+</div>
+            <div class="stat-label">Certifications</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-value">2</div>
+            <div class="stat-label">Years Experience</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="resume">
+    <div class="container">
+      <div class="content">
+        <h2>Resume</h2>
+        <p>Download my resume to explore my professional journey, technical skills, and project experiences in detail.</p>
+        <a href="#" class="download-btn"><i class="fas fa-download"></i> Download Resume</a>
+        
+        <div class="work-experience">
+          <h3>Work Experience</h3>
+          <div class="experience-item">
+            <h4>Frontend Developer Intern</h4>
+            <p class="company">Tech Solutions Inc. | June 2024 - August 2024</p>
+            <ul>
+              <li>Developed responsive web applications using React.js</li>
+              <li>Collaborated with UI/UX designers to implement design systems</li>
+              <li>Optimized website performance for faster loading times</li>
+            </ul>
+          </div>
+          
+          <div class="experience-item">
+            <h4>Web Development Tutor</h4>
+            <p class="company">University Coding Club | September 2023 - Present</p>
+            <ul>
+              <li>Conducted workshops on HTML, CSS, and JavaScript</li>
+              <li>Mentored students in web development projects</li>
+              <li>Created learning materials and coding exercises</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="education">
+    <div class="container">
+      <div class="content">
+        <h2>Education</h2>
+        <div class="education-item">
+          <h3>Shahjalal University Of Science and Technology,Sylhet</h3>
+          <p class="degree">Pursuing B.Sc in Computer Science and Engineering</p>
+          <p class="duration">2023- Present (3rd Year)</p>
+          <p class="gpa">Current GPA: 3.63/4.0</p>
+        </div>
+        
+        <div class="coursework">
+          <h3>Relevant Coursework</h3>
+          <div class="course-tags">
+            <span>Data Structures</span>
+            <span>Algorithms</span>
+            <span>Web Development</span>
+            <span>Database Systems</span>
+            <span>AI & Machine Learning</span>
+            <span>Software Engineering</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="certifications">
+    <div class="container">
+      <div class="content">
+        <h2>Certifications</h2>
+        <div class="certification-grid">
+          <div class="certification-card">
+            <i class="fas fa-certificate"></i>
+            <h3>Frontend Web Development</h3>
+            <p class="issuer">FreeCodeCamp</p>
+            <p>Completed comprehensive training in modern frontend technologies including HTML5, CSS3, and JavaScript.</p>
+          </div>
+          
+          <div class="certification-card">
+            <i class="fas fa-certificate"></i>
+            <h3>Java Programming</h3>
+            <p class="issuer">Coursera</p>
+            <p>Specialization covering core Java concepts, object-oriented programming, and application development.</p>
+          </div>
+          
+          <div class="certification-card">
+            <i class="fas fa-certificate"></i>
+            <h3>Python for Data Science</h3>
+            <p class="issuer">Udemy</p>
+            <p>Mastered Python programming for data analysis, visualization, and machine learning applications.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills">
+    <div class="container">
+      <div class="content">
+        <h2>Technical Skills</h2>
+        <div class="skills-progress">
+          <div class="skill">
+            <span>HTML</span>
+            <div class="progress-bar">
+              <div class="progress" style="width: 95%"></div>
+            </div>
+          </div>
+          <div class="skill">
+            <span>CSS</span>
+            <div class="progress-bar">
+              <div class="progress" style="width: 90%"></div>
+            </div>
+          </div>
+          <div class="skill">
+            <span>JavaScript</span>
+            <div class="progress-bar">
+              <div class="progress" style="width: 85%"></div>
+            </div>
+          </div>
+          <div class="skill">
+            <span>React.js</span>
+            <div class="progress-bar">
+              <div class="progress" style="width: 80%"></div>
+            </div>
+          </div>
+          <div class="skill">
+            <span>Tailwind CSS</span>
+            <div class="progress-bar">
+              <div class="progress" style="width: 75%"></div>
+            </div>
+          </div>
+          <div class="skill">
+            <span>Python</span>
+            <div class="progress-bar">
+              <div class="progress" style="width: 70%"></div>
+            </div>
+          </div>
+          <div class="skill">
+            <span>Java</span>
+            <div class="progress-bar">
+              <div class="progress" style="width: 65%"></div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="additional-skills">
+          <h3>Additional Skills</h3>
+          <div class="skill-tags">
+            <span>Git & GitHub</span>
+            <span>Responsive Design</span>
+            <span>UI/UX Design</span>
+            <span>SQL</span>
+            <span>Problem Solving</span>
+            <span>Agile Methodologies</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <div class="container">
+      <div class="content">
+        <h2 class="section-title">Projects</h2>
+        <p class="section-subtitle">Explore my latest work and personal projects</p>
+        
+        <div class="projects-grid">
+          <!-- Project 1 -->
+          <div class="project-card">
+            <div class="project-image">
+              <img src="https://images.unsplash.com/photo-1551650975-87deedd944c3?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="AI Healthcare Assistant">
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">AI Healthcare Assistant</h3>
+              <p class="project-description">A web application that uses machine learning to analyze symptoms and provide preliminary medical advice.</p>
+              <div class="project-tech">
+                <span class="tech-tag">React</span>
+                <span class="tech-tag">Python</span>
+                <span class="tech-tag">TensorFlow</span>
+                <span class="tech-tag">Firebase</span>
+              </div>
+              <div class="project-links">
+                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                <a href="#" class="project-link github"><i class="fab fa-github"></i> Source Code</a>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Project 2 -->
+          <div class="project-card">
+            <div class="project-image">
+              <img src="https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="EduLearn Platform">
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">EduLearn Platform</h3>
+              <p class="project-description">An online learning platform with interactive courses, quizzes, and progress tracking for students.</p>
+              <div class="project-tech">
+                <span class="tech-tag">JavaScript</span>
+                <span class="tech-tag">Node.js</span>
+                <span class="tech-tag">MongoDB</span>
+                <span class="tech-tag">Tailwind CSS</span>
+              </div>
+              <div class="project-links">
+                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                <a href="#" class="project-link github"><i class="fab fa-github"></i> Source Code</a>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Project 3 -->
+          <div class="project-card">
+            <div class="project-image">
+              <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="TaskFlow Pro">
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">TaskFlow Pro</h3>
+              <p class="project-description">A productivity app with Kanban boards, task management, and team collaboration features.</p>
+              <div class="project-tech">
+                <span class="tech-tag">React</span>
+                <span class="tech-tag">Redux</span>
+                <span class="tech-tag">Firebase</span>
+                <span class="tech-tag">Material UI</span>
+              </div>
+              <div class="project-links">
+                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                <a href="#" class="project-link github"><i class="fab fa-github"></i> Source Code</a>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Project 4 -->
+          <div class="project-card">
+            <div class="project-image">
+              <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="EcoTrack Dashboard">
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">EcoTrack Dashboard</h3>
+              <p class="project-description">Environmental monitoring dashboard that visualizes air quality, temperature, and pollution data.</p>
+              <div class="project-tech">
+                <span class="tech-tag">D3.js</span>
+                <span class="tech-tag">Python</span>
+                <span class="tech-tag">Chart.js</span>
+                <span class="tech-tag">API Integration</span>
+              </div>
+              <div class="project-links">
+                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                <a href="#" class="project-link github"><i class="fab fa-github"></i> Source Code</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="container">
+      <div class="content">
+        <h2>Contact Me</h2>
+        <p>Have a project in mind or want to discuss opportunities? Feel free to reach out!</p>
+        
+        <div class="contact-container">
+          <div class="contact-info">
+            <h3>Get In Touch</h3>
+            
+            <div class="contact-detail">
+              <i class="fas fa-map-marker-alt"></i>
+              <div>
+                <h4>Location</h4>
+                <p>Sylhet, Bangladesh</p>
+              </div>
+            </div>
+            
+            <div class="contact-detail">
+              <i class="fas fa-envelope"></i>
+              <div>
+                <h4>Email</h4>
+                <p>sagorpaul30045@gmail.com</p>
+              </div>
+            </div>
+            
+            <div class="contact-detail">
+              <i class="fas fa-phone"></i>
+              <div>
+                <h4>Phone</h4>
+                <p>+880 1568301548</p>
+              </div>
+            </div>
+            
+            <div class="contact-detail">
+              <i class="fas fa-clock"></i>
+              <div>
+                <h4>Working Hours</h4>
+                <p>Mon-Fri: 9AM - 5PM</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="contact-form">
+            <h3>Send a Message</h3>
+            <form>
+              <div class="form-group">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" placeholder="Enter your name">
+              </div>
+              
+              <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" placeholder="Enter your email">
+              </div>
+              
+              <div class="form-group">
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" placeholder="Enter subject">
+              </div>
+              
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" placeholder="Enter your message"></textarea>
+              </div>
+              
+              <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Sagor Chandra Paul | All Rights Reserved</p>
+      <div class="social-icons">
+        <a href="#"><i class="fab fa-github"></i></a>
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fas fa-envelope"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    function toggleMenu() {
+      const mobileNav = document.getElementById('mobileNav');
+      const overlay = document.getElementById('overlay');
+      mobileNav.classList.toggle('active');
+      overlay.style.display = overlay.style.display === 'block' ? 'none' : 'block';
+    }
+    
+    // Close mobile menu when clicking a link
+    document.querySelectorAll('.mobile-nav a').forEach(link => {
+      link.addEventListener('click', toggleMenu);
+    });
+    
+    // Smooth scrolling for navigation links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function(e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+          behavior: 'smooth'
+        });
+      });
+    });
+  </script>
+</body>
+</html>
