@@ -1,37 +1,44 @@
-Portfolio for me
+# Sagor Chandra Paul — Portfolio (Check Version)
 
-HTML FILE OVERVIEW:
+This repository contains a static portfolio website for Sagor Chandra Paul. It is a version of the portfolio layout used to review and refine the presentation of profile information, resume, education, skills, projects, and contact details.
 
-Home: Brief intro with profile picture and social links adding background and many style to corresponding css file
+## Features
+- Home and About sections
+- Resume and education sections
+- Skills and featured projects
+- Contact section and footer
+- Responsive mobile navigation
+- Font Awesome social icons
+- CSS styling, cards, transitions, and animations
 
-About: Personal background and highlights adding style to corresponding css file
+## Tech Stack
+- HTML5
+- CSS3
+- Font Awesome 6 via CDN
 
-Resume: Downloadable resume with work experience
+## Project Structure
+```text
+portfolio_check/
+├── index.html
+├── hi.css
+└── sagor.jpeg
+```
 
-Education: Academic background and coursework
+## Run Locally
+No dependencies or build tools are required.
 
-Certifications: Technical certifications with details
+1. Clone or download the repository.
+2. Open `index.html` in your browser.
+3. Alternatively, use the VS Code Live Server extension for local preview.
 
-Skills: Technical skill progress bars and additional skills
+## Customize
+- Edit the sections and links in `index.html`.
+- Adjust styles and responsive behavior in `hi.css`.
+- Replace `sagor.jpeg` if needed.
+- Check that resume, social, project, and contact links point to the correct destinations before publishing.
 
-Projects: Featured projects with images, tech stacks, and links
+## Deployment
+Deploy the static files with GitHub Pages or another static hosting provider.
 
-Contact: Contact form and personal details
-
-Footer: Copyright and social media
-
-CSS FILE OVERVIEW:
-
-Global styles for consistent layout and smooth scrolling.
-
-Section-wise design like Home, About, Resume, Education, Skills, Projects, and Contact.
-
-Responsive layouts using media queries for mobile, tablet, and desktop.
-
-Card-based UI with shadows, rounded corners, and gradients.
-
-Animations & transitions for interactive user experience.
-
-Flex and grid used for clean, organized layouts.
-
-Custom fonts and icons for a professional look.
+---
+Made by Sagor Chandra Paul.
